@@ -1,0 +1,177 @@
+
+$theme-colors: (
+  "primary": #fff, 
+  "secondary": #373737, 
+  "dark": #000000,
+  "info": #f8a440,
+  "success": #e5e5e5,
+  "light": #f7f5f5,
+  
+);
+
+$container-max-widths: (
+    sm:500px,
+    md:890px,
+    lg:983px,
+    xl:1250px
+);
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.dropdown-menu {
+    background-color: #5c5a57 !important;
+}
+
+.dropdown-item.active {
+    background-color: transparent !important;
+}
+
+.h6-custom{
+    font-size: 12px;
+}
+
+.bg-image {
+    background-image: url(resources/img/main-bg-2.png);
+}
+
+.bg-image-3 {
+    background-image: url(resources/img/main-bg-3.png);
+}
+
+.bg-image, .bg-image-3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+.slant {
+    transform: skew(-10deg);
+}
+
+.custom-text {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 67px;
+}
+
+.line{
+    border-bottom: 3px solid #fff;
+    width: 25%;
+}
+
+
+.bg-white-2 {
+    position: absolute;
+    top: 25%;
+}
+
+.express {
+    border: 1px solid #00000010;
+}
+
+.express:hover {
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.041);
+    transition: all .3s;
+}
+
+.bg-tapes-custom {
+    border: 1px solid rgba(0, 0, 0, 0.103); 
+}
+
+
+h5::after {
+    display: block;
+    height: 3px;
+    background-color: #ff843f;
+    content: " ";
+    width: 80px;
+    margin-top: 20px;
+}
+
+.btn-watch {
+    border-radius: 0px;
+    background: rgba(255, 0, 0, 0.9);
+}
+.btn-listen {
+    border-radius: 0px;
+    border-color: rgba(255, 0, 0, 0.9);
+    color:  rgba(255, 0, 0, 0.9);
+}
+
+.bg-image-2 {
+    background-image: url(resources/img/quotes-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 65vh;
+    position: relative;
+}
+
+
+.h6-custom-2 {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.footer-bg {
+    background-color: #262626;
+}
+
+
+/*------ Prophetic School CSS ------------ */
+/*-----------------------------------------*/
+
+.rounded-live {
+    border-radius: .5rem;
+}
+
+
+.spring-green{
+    background-color: #38b545;
+}
+
+.spring-grey{
+    background-color: #262626;
+}
+
+.spring-brown{
+    background-color:#5a2200;
+}
+
+.tb-rad{
+    border: 1px solid rgba(128, 128, 128, 0.363);
+    box-shadow: rgba(128, 128, 128, 0.199);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+.table th,
+.table td{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.bg-reg-foot{
+    background-image: url(resources/img/bg-reg-foot.png);
+}
+
+.custom-line-height {
+    line-height: 25px;
+}

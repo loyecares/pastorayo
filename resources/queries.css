@@ -1,0 +1,63 @@
+@media (min-width: 1400px) {
+
+}
+
+
+@media (max-width: 1200px) {
+   
+}
+
+
+@media (max-width: 992px) { 
+
+
+    
+}
+
+@media (max-width : 990px) {
+
+
+}
+
+
+@media (max-width: 844px) {
+    .custom-h6-2 {
+        font-size: 20px;
+        padding: 0px 10px 0px 10px;
+    }
+
+}
+
+@media (max-width: 600px) { 
+    .cus-pad {
+        padding-left: 45px;
+    }
+
+    .custom-text,.custom-text-2 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .cus-pad-2 {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .cus-h2 {
+        font-size: 22px;
+    }
+
+   
+    .custom-h6-2 {
+        font-size: 14px;
+        padding: 0px 8px 0px 8px;
+        line-height: 20px;
+    }
+
+    .custom-h6 {
+        font-size: 12px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    
+}
